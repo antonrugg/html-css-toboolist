@@ -41,3 +41,25 @@ nav{
     border-top-right-radius: 0.9rem;
     border-bottom: 1px solid lightgrey;
 }
+
+.btn{
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 8px;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+#add-task{
+    background-color: #47adf1;
+    color: white;
+    border: none;
+}
+
+#add-section{
+    margin-left: 0;
+    background-color: white;
+    color: #d5d9dd;
+    border: #d5d9dd solid 2px;
+}
+
