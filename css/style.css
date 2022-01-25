@@ -63,3 +63,48 @@ nav{
     border: #d5d9dd solid 2px;
 }
 
+section{
+    margin-top: 2rem;
+}
+
+.black-triangle{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+
+
+section > h2{
+    display: inline-block;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+li{
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+li > span{
+    margin-right: 0.5rem;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.checked{
+    border-radius: 50%;
+    border: #74c8b4 solid 0.08rem;
+    color: #74c8b4;
+    padding: 0.2rem;
+}
+
+.missing{
+    border-radius: 50%;
+    border: red solid 0.08rem;
+    color: red;
+    padding: 0.2rem; 
+}
