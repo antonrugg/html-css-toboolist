@@ -35,7 +35,7 @@ main{
 }
 
 nav{
-    height: 13%;
+    height: 11%;
     width: 100%;
     border-top-left-radius: 0.9rem;
     border-top-right-radius: 0.9rem;
@@ -43,7 +43,7 @@ nav{
 }
 
 .btn{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 50px;
     padding: 8px;
     border-radius: 0.3rem;
@@ -67,8 +67,9 @@ section{
     margin-top: 2rem;
 }
 
+
 .black-triangle{
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 50px;
     margin-right: 10px;
 }
@@ -77,34 +78,77 @@ section{
 
 section > h2{
     display: inline-block;
+    font-size: 20px;
 }
 
 ul{
     list-style-type: none;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 li{
     margin-bottom: 1rem;
     margin-top: 0.5rem;
+    font-weight: 500;
 }
 
 li > span{
     margin-right: 0.5rem;
-    font-size: 10px;
+    font-size: 8px;
     font-weight: bold;
+    border-radius: 50%;
+    padding: 0.2rem; 
 }
 
 .checked{
-    border-radius: 50%;
     border: #74c8b4 solid 0.08rem;
     color: #74c8b4;
-    padding: 0.2rem;
 }
 
 .missing{
-    border-radius: 50%;
     border: red solid 0.08rem;
     color: red;
-    padding: 0.2rem; 
 }
+
+
+.label{
+    height: 25px;
+    width: 80px;
+    background-color: red;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.050rem;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 0.170rem;
+    padding-top: 0.325rem;
+    font-size: 11px;
+    font-weight: 500;
+    color: white;
+    
+}
+
+.editorial{
+    background-color: #45abea;
+}
+
+.q1goals{
+    background-color: #9c72e4;
+}
+
+.recruiting{
+    background-color: #64c0a9;
+}
+
+.mobile{
+    background-color: #f29e33;
+}
+
+.refresh{
+   background-color: #d863a1
+}
+
+.sales{
+    background-color: #b0c926;
+}
+
